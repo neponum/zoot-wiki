@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"f0a29c27bb848e12","type":"text","text":"Doktor","x":-860,"y":240,"width":120,"height":60},
+		{"id":"c374c670f25f2f30","type":"file","file":"Arknights/Sprites/char_003_kalts_1.png","x":-1220,"y":160,"width":220,"height":220},
+		{"id":"59b57b6ce21e52d3","type":"file","file":"Arknights/Sprites/token_10002_kalts_mon3tr.png","x":-1600,"y":160,"width":220,"height":220},
+		{"id":"57a20526f65cf5b6","type":"text","text":"Priestess","x":-1235,"y":540,"width":250,"height":60},
+		{"id":"03cedec4f9365606","type":"file","file":"Arknights/Storylines/Races/Предшественники.canvas","x":-886,"y":680,"width":172,"height":140}
+	],
+	"edges":[
+		{"id":"add0ef73bf3270f4","fromNode":"f0a29c27bb848e12","fromSide":"left","toNode":"c374c670f25f2f30","toSide":"right"},
+		{"id":"0ef2866d79035c48","fromNode":"c374c670f25f2f30","fromSide":"left","toNode":"59b57b6ce21e52d3","toSide":"right"},
+		{"id":"466eee8e233af88b","fromNode":"f0a29c27bb848e12","fromSide":"bottom","toNode":"03cedec4f9365606","toSide":"top"},
+		{"id":"05842005f6edbc96","fromNode":"f0a29c27bb848e12","fromSide":"bottom","toNode":"57a20526f65cf5b6","toSide":"top"},
+		{"id":"b4bd16957793205d","fromNode":"57a20526f65cf5b6","fromSide":"bottom","toNode":"03cedec4f9365606","toSide":"left"}
+	]
+}
